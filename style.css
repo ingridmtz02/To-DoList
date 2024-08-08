@@ -1,0 +1,101 @@
+/* selector universal-resetea*/
+*{
+    margin: px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-weight: 300;
+    font-style: normal;
+    color: #35343a ;
+    font-family: "Outfit", sans-serif;
+/* gradiente */
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.568) 0%, rgba(238,197,223,1) 45%, rgba(183,214,250,1) 100%);
+    /* para ajustar alto y se puede tmb con ancho */
+    height: 100vh;  
+    background-size: contain;
+    background-position: center;
+}
+
+.contenedor{
+    max-width: 80%;
+    width: 700px;
+    height: 600px;
+    margin: auto;
+}
+#snoopy{
+    width: 100%;
+    height: 200px;}
+
+.encabezado{
+    padding: 50px 0 5px 0;
+}
+.agregar{
+    background-color: rgba(255, 255, 255, 0.534);
+    border-radius: 15px;
+    height: 70px;
+    /* para alinearlo mjr */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+}
+.agregar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius:10px;
+    background: none;
+    font-size: medium;
+    color: rgb(65, 0, 117);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.agregar input::placeholder{
+    font-size: 1.1rem;
+    color: rgb(119, 26, 226);
+}
+.agregar i{
+    font-size: 45px;
+    color: rgb(83, 46, 151);
+}
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* Seccion de tareas */
+.tareas h2{
+    margin-bottom: 20px;
+}
+.tareas li{
+    background-color: rgb(83, 46, 151);
+    border-radius: 15px;
+    padding: 10px;
+    color: blanchedalmond;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tareas{
+    font-size: 15px;
+}
+.tareas p{
+    font-weight: 600;
+}
+.tareas i:hover{
+    color: rgb(89, 24, 102);
+    cursor: pointer;
+}
+.tachado{
+    text-decoration: line-through;
+    color: rgb(243, 238, 238);
+}
+
+/* fecha */
+#fecha{
+    color: rgba(32, 30, 30, 0.726);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
